@@ -3,15 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "autoprefixer": "^9.6.1",
+    "lodash.get": "^4.4.2",
+    "lodash.set": "^4.3.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "tailwindcss": "^1.0.5"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "tailwind:css": "tailwind build src/tailwind.src.css -c  tailwind.config.js -o src/tailwind.css"
   },
   "eslintConfig": {
     "extends": "react-app"
