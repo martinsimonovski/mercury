@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import get from 'lodash.get';
-import set from 'lodash.set';
 import { Editor } from './Editor';
 import { Header } from './Header';
 import { Path } from './Path';
 import './App.css';
 import './tailwind.css';
+const get = require('lodash/get');
+const set = require('lodash/set');
 
 function App() {
   const [left, setLeft] = useState('');
